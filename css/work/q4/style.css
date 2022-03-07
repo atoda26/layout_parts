@@ -1,5 +1,42 @@
 @charset "UTF-8";
 
+.q4_white {
+  background-color: gray;
+  text-align: center;
+  display: table;
+  display: table-cell;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.q4_white_small {
+  background-color: white;
+  position: absolute;
+  position: relative;
+}
+
+.q4_blue {
+  background-color: lightblue;
+  margin: auto;
+  display: inline-block;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.q4_white_large {
+  background-color: white;
+  position: relative;
+}
+
+
+
 
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */

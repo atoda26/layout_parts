@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
+.table_gohan {
+  table-layout: auto;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+ background-color: white;
+ }
+ 
+ .gohan tr:nth-child(odd) {
+   background-color: #ecf1f2;
+ }
+ 
+ th {
+   background-color: blue;
+   color: white;
+   border: solid 1px gray;
+   border-collapse: collapse;
+   font-size: 18px;
+   line-height: 26px;
+   text-align: center;
+   padding: 10px;
+ }
+ 
+ td {
+  color: black;
+  border: solid 1px gray;
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+ }
+
+ .gohan tr:last-child {
+   border-top: dotted 2px black;
+ }
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */

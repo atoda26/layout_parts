@@ -1,5 +1,64 @@
 @charset "UTF-8";
 
+.car1 {  
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+
+}
+.car1 .car-img{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.car1 .textbox{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #fff;
+  opacity: 0;
+  padding: 20px;
+  font-size: 16px;
+  transition: all 3.0s ease-in-out;
+}
+.car1:hover .textbox {
+  padding-bottom: 10px;
+}
+
+
+.car2 {
+  float:left;
+  transition: all 0.5s ease;
+  width: 300px;
+  margin-right: 50px;
+ 
+}
+
+
+
+.car2:hover{
+ 
+  transform:scale(1.2,1.2);
+  transition:1s all;
+
+}
+
+.mozi {
+
+  width:960px;
+  animation-name:animetion;
+  animation-duration:2s;
+  animation-timing-function:ease-in;
+  animation-delay:1s;
+  animation-direction:alternate;
+  animation-fill-mode:forwards;
+  animation-play-state:running;
+  animation: 10s ease-in 1s infinite reverse both running slidein;
+}
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
