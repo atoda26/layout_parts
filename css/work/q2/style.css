@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-.table_gohan {
-  table-layout: auto;
+.gohan {
+  margin: auto 0;
+  table-layout: fixed;
   width: 100%;
   text-align: center;
   border-collapse: collapse;
- background-color: white;
+  background-color: #dedede;
  }
  
  .gohan tr:nth-child(odd) {
@@ -13,9 +14,9 @@
  }
  
  th {
-   background-color: blue;
+   background-color: #2244aa;
    color: white;
-   border: solid 1px gray;
+   border: solid 1px #ecf1f2;
    border-collapse: collapse;
    font-size: 18px;
    line-height: 26px;
@@ -25,7 +26,7 @@
  
  td {
   color: black;
-  border: solid 1px gray;
+  border: solid 1px #ecf1f2;
   border-collapse: collapse;
   font-size: 16px;
   line-height: 22px;
@@ -33,7 +34,7 @@
  }
 
  .gohan tr:last-child {
-   border-top: dotted 2px black;
+   border-top: dotted 2px #000;
  }
 
 /* q2が終わったら

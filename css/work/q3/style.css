@@ -47,7 +47,10 @@
 .one, .two, .three, .four, .five, .six, .seven, .eight {
   position: absolute;
   width: 100px;
-  height: 100px; 
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: xx-large;
 }
 
 .one {
@@ -88,7 +91,7 @@
 
 .six {
   left:120px;
-  bottom:110px;
+  bottom:120px;
   background-color: #fffee4;
   z-index: 6;
 }
