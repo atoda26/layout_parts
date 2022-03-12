@@ -6,17 +6,17 @@
   width: 100%;
   text-align: center;
   border-collapse: collapse;
-  background-color: #dedede;
+  background-color: white;
  }
  
  .gohan tr:nth-child(odd) {
    background-color: #ecf1f2;
  }
  
- th {
+ .gohan th {
    background-color: #2244aa;
    color: white;
-   border: solid 1px #ecf1f2;
+   border: solid 1px #dedede;
    border-collapse: collapse;
    font-size: 18px;
    line-height: 26px;
@@ -24,9 +24,9 @@
    padding: 10px;
  }
  
- td {
+ .gohan td {
   color: black;
-  border: solid 1px #ecf1f2;
+  border: solid 1px #dedede;
   border-collapse: collapse;
   font-size: 16px;
   line-height: 22px;

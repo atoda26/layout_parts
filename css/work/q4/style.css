@@ -4,30 +4,68 @@
   background-color: gray;
   text-align: center;
   display: table;
-  display: table-cell;
-  vertical-align: middle;
+  display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
+
 .q4_white_small {
   background-color: white;
-  position: absolute;
   position: relative;
 }
 
-.q4_blue {
+.q4_bluetext {
   background-color: lightblue;
   margin: auto;
+  position:absolute;
+  text-align: center;
+}
+
+.q4_bluemargin {
+  background-color: lightblue;
+  margin: auto;
+  position:absolute;
+
+}
+
+.table {
   display: inline-block;
+}
+
+.q4_bluetable {
+  background-color: lightblue;
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q4_blueflex {
+  background-color: lightblue;
+  position:absolute;
+}
+
+
+.q4_blueposi {
+  background-color: lightblue;
+  margin: auto;
+  height: auto;
   position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.q4_blueposition {
+  background-color: lightblue;
+  margin: auto;
+  height: auto;
+  position: absolute;
+ 
 }
 
 .q4_white_large {
